@@ -40,7 +40,7 @@ function isAnAdult(age) {
 function yearsToAdulthood(age) {
   // write your code here
  let yearsLeft = 18 - age;
- if(yearsLeft < 0 ){
+ if(yearsLeft <= 0 ){
   return `You are already an adult, fam`
  }
  else {
