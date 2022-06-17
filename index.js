@@ -55,6 +55,7 @@ function admit(person) {
   // write your code here
   // use greet, isAnAdult and yearsToAdulthood to help you!
   if (isAnAdult(person.age)) console.log(`Hello ${person.name}`) 
-  else console.log(`Come back in ${yearsToAdulthood(person.age)}`)
+  else console.log(`Come back in ${yearsToAdulthood(person.age)} when you are old enough!`)
 }
-admit({name: "Gentrit", age: 16});
+let genti = {name: "Gentrit", age: 16};
+admit(genti);
