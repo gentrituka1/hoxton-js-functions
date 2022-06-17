@@ -40,10 +40,16 @@ function isAnAdult(age) {
 function yearsToAdulthood(age) {
   // write your code here
  let yearsLeft = 18 - age;
+ if(yearsLeft < 0 ){
+  return `You are already an adult, fam`
+ }
+ else {
  if(yearsLeft === 1)
  return `${yearsLeft} year`
  else return `${yearsLeft} years`
 }
+}
+
 
 // Input: person ({ age: number, name: string })
 // Action:
